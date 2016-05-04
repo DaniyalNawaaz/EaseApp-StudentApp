@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="EaseApp Order System">
+        <menu>
+            <item
+                android:title="Place New Order"
+                android:icon="@drawable/place"
+                android:id="@+id/place_order"/>
+            <item
+                android:title="View Orders"
+                android:icon="@drawable/order"
+                android:id="@+id/view_order"/>
+
+            <item
+                android:title="View Transactions"
+                android:icon="@drawable/transaction"
+                android:id="@+id/view_transaction"/>
+        </menu>
+    </item>
+
+    <item android:title="EaseApp Attendance System">
+        <menu>
+            <item
+                android:title="Mark Attendance"
+                android:icon="@drawable/mark"
+                android:id="@+id/mark_attendance"/>
+            <item
+                android:title="View Attendance"
+                android:icon="@drawable/view"
+                android:id="@+id/view_attendance"/>
+        </menu>
+    </item>
+
+    <group android:id="@+id/group_settings_id">
+
+        <item android:title="Notifications"
+            android:icon="@drawable/notify"
+            android:id="@+id/view_notification"/>
+
+        <item android:title="My Profile"
+            android:icon="@drawable/profile"
+            android:id="@+id/my_profile"/>
+    </group>
+
+</menu>
